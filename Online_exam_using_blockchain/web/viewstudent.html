@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="studentpost">
+  <table width="544" border="1">
+
+    <tr>
+      <td width="62">Name</td>
+      <td width="38">phone</td>
+        <td width="38">Gender</td>
+      <td width="71">Department</td>
+      <td width="37">Place</td>
+      <td width="57">Addresss</td>
+      <td width="31">email</td>
+{#      <td width="57">username</td>#}
+{#      <td width="60">Password</td>#}
+      <td width="73"><a href="#"></a></td>
+    </tr>
+
+        {% for i in val  %}
+
+    <tr>
+      <td>&nbsp;{{ i.fname }} {{ i.lname }} </td>
+      <td>&nbsp;{{ i.phone }} </td>
+        <td> {{ i.gender }}</td>
+      <td> {{ i.department }}</td>
+      <td>&nbsp;{{ i.place }}</td>
+      <td>&nbsp;{{ i.post }} {{ i.pin }} </td>
+      <td>&nbsp;{{ i.email }} </td>
+{#      <td>&nbsp;</td>#}
+{#      <td>&nbsp;</td>#}
+      <td>
+      <p><a href="{% url 'deletestud' id=i.lid.id %}">Delete</a></p></td>
+    </tr>
+
+      {% endfor  %}
+
+    <tr>
+      <td colspan="9"><label>
+        <div align="center">
+          <input type="submit" name="Submit" value="add new" />
+          </div>
+      </label></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

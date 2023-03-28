@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="addsubject">
+  <table width="200" border="1">
+    <tr>
+      <td>department</td>
+      <td><label>
+        <select name="department">
+            {% for i in val %}
+          <option value="{{ i.id }}">{{ i.department }}</option>
+          {% endfor %}
+        </select>
+      </label></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>semester</td>
+      <td><label>
+        <select name="semester">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+        </select>
+      </label></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>subject</td>
+      <td><label>
+        <input type="text" name="subject" />
+      </label></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><label>
+        <div align="center">
+          <input type="submit" name="Submit" value="Submit" />
+          </div>
+      </label></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

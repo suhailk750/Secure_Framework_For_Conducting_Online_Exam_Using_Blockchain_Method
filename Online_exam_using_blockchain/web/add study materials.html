@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="fileuploadmaterial" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="537" border="1">
+    <tr>
+      <td width="185">subject</td>
+      <td width="336"><label>
+        <select name="select">
+            {% for i in val  %}
+            <option value="{{ i.id }}">{{ i.subject }}</option>
+            {% endfor  %}
+        </select>
+      </label></td>
+    </tr>
+    <tr>
+      <td>materials</td>
+      <td><a href="#">
+        <label></label>
+        <label>
+        <input type="file" name="file" />
+        </label>
+      </a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><label>
+        <div align="center">
+          <input type="submit" name="Submit" value="Add" />
+        </div>
+      </label></td><    </tr>
+  </table>
+  <label></label>
+</form>
+</body>
+</html>
