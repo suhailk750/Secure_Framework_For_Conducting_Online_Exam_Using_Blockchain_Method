@@ -20,7 +20,14 @@
       <td> {{ i.stud_id.fname }} {{ i.stud_id.lname }} </td>
       <td> {{ i.complaint }} </td>
       <td>&nbsp;{{ i.date }} </td>
-      <td><p><a href="#"></a><a href="reply">REPLY</a></p>
+      <td>
+
+          {% if i.reply == 'pending' %}
+
+          <p><a href=""></a><a href="{%  url 'reply' id=i.id %}">REPLY</a></p>
+          {% else %}
+          replied
+          {% endif %}
       </td>
     </tr>
       {% endfor  %}

@@ -9,7 +9,7 @@ from django.shortcuts import redirect
 # Create your views here.
 
 def main(request):
-    return render(request,"login.html")
+    return render(request,"index.html")
 
 
 def logincode(request):
@@ -57,7 +57,7 @@ def staffadd(request):
     ob.save()
 
     sob = staff()
-    sob.finame = fname
+    sob.fname = fname
     sob.lname = lname
     sob.department = department
     sob.phone = phone
@@ -199,20 +199,18 @@ def viewcomplaint(request):
     ob = complaints.objects.all()
     return render(request,"viewcomplaints.html",{'val':ob})
 
-def reply(request):
+def reply(request,id):
     request.session['cid'] = id
-
     return render(request,"Send Doubt Reply.html")
 
 def compreply(request):
-
-    reply = request.POST['reply']
+    replay = request.POST['textfield']
 
     ob = complaints.objects.get(id=request.session['cid'])
-    ob.reply = reply
+    ob.reply = replay
     ob.save()
 
-    return HttpResponse('''<script>alert("send Successfull");window.location='/postcomplaint'</script> ''')
+    return HttpResponse('''<script>alert("send Successfull");window.location='/viewcomplaint'</script> ''')
 
 # def compply(request,id):
 #
@@ -326,6 +324,12 @@ def viewstudymaterialsstud(request):
     ob = study_material.objects.all()
     return render(request,"View Study material stud.html",{'val':ob})
 
+# def downloadstmaterial(request):
+#
+#
+#
+#     return HttpResponse('''<script>alert("Download Successfull");window.location='/viewstudymaterialsstud'</script> ''')
+
 
 def allocatedsub(request):
     ob = subject.objects.all()
@@ -333,8 +337,9 @@ def allocatedsub(request):
     return render(request,"allocated subject.html",{'val':ob ,'va':ob1})
 
 def viewallocatedsub(request):
+    ob=allocated_sub.objects.filter(staf_id__lid__id=request.session['lid'])
 
-    return render(request,"view allocated subject.html")
+    return render(request,"view allocated subject.html",{'val':ob})
 
 def allocatestaff(request):
     ob=staff.objects.all()
@@ -419,7 +424,7 @@ def addqpaper(request):
     return render(request,"Add Question papper.html")
 
 def adminpage(request):
-    return render(request,"admin page.html")
+    return render(request,"admin index.html")
 
 def manageexam(request):
     return render(request,"Manage exam.html")

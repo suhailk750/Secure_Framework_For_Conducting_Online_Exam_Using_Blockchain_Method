@@ -9,25 +9,21 @@
 <form id="form1" name="form1" method="post" action="">
   <table width="466" border="1">
     <tr>
-      <td width="141">Department</td>
-      <td width="201"><label>
-        <select name="select">
-        </select>
-        <input type="submit" name="Submit" value="Search" />
-      </label></td>
+      <td width="141">Subject</td>
+      <td width="201">Materials</td>
+        <td></td>
     </tr>
+      {% for i in val  %}
     <tr>
-      <td>Subject</td>
-      <td><label>
-        <input type="text" name="textfield2" />
-      </label></td>
+      <td>{{ i.sub_id.subject }}</td>
+      <td>{{ i.materials }}</td>
+        <td> <a href="{{ i.materials.url }}" download>Download</a> </td>
     </tr>
-    <tr>
-      <td>Study materials </td>
-      <td><label>
-        <input type="text" name="textfield" />
-      </label></td>
-    </tr>
+      {% endfor  %}
+{#    <tr>#}
+{#      <td> </td>#}
+{#      <td></td>#}
+{#    </tr>#}
 {#    <tr>#}
 {#      <td colspan="2"><label>#}
 {#        <div align="center">#}
