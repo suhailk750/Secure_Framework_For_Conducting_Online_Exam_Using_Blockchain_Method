@@ -1,18 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-</head>
+{% extends 'adminindex.html'  %}
+{% block body %}
 
 <body>
-<form id="form1" name="form1" method="post" action="staffp">
-  <table width="544" border="1">
+<form id="form1" name="form1" method="post" action="staffp#about">
+  <table class="table table-striped">
     <tr>
       <td colspan="9">&nbsp;</td>
     </tr>
     <tr>
-      <td width="62">Name</td>
+      <th width="62">Name</th>
       <td width="38">phone</td>
         <td width="62">Gender</td>
       <td width="71">Department</td>
@@ -35,17 +31,17 @@
       <td>&nbsp;{{ i.email }}</td>
 {#      <td>&nbsp;</td>#}
       <td>
-      <p><a href="{% url 'deletestaff' id=i.lid.id %}">Delete</a></p></td>
+      <p><a href="{% url 'deletestaff' id=i.lid.id %}" class="btn btn-danger">Delete</a></p></td>
     </tr>
       {% endfor  %}
-    <tr>
+    <tr align="center">
       <td colspan="9"><label>
         <div align="center">
-          <input type="submit" name="Submit" value="add new" />
+          <input type="submit" name="Submit" value="add new"  class="btn btn-success"/>
           </div>
       </label></td>
     </tr>
   </table>
 </form>
 </body>
-</html>
+{% endblock %}

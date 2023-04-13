@@ -259,6 +259,8 @@ def postsubject(request):
 
 
 
+
+
 def searchsubject(request):
     dept=request.POST['select']
     ob = department.objects.all()
@@ -424,19 +426,21 @@ def addqpaper(request):
     return render(request,"Add Question papper.html")
 
 def adminpage(request):
-    return render(request,"admin index.html")
+    return render(request,"adminindex.html")
 
 def manageexam(request):
     return render(request,"Manage exam.html")
 
 def staffs(request):
-    return render(request,"staffpage.html")
+    return render(request,"staffindex.html")
 
 def students(request):
-    return render(request,"studentpage.html")
+    return render(request,"user.html")
 
 def admin(request):
     return render(request,"admin page.html")
+# def logout(request):
+#     return render(request,"login.html")
 
 
 
