@@ -1,0 +1,32 @@
+{% extends 'adminindex.html'  %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="sendnotification">
+  <div align="center">
+    <table class="table table-striped">
+      <tr>
+        <td colspan="2"><div align="center">NOTIFICATION</div></td>
+      </tr>
+      <tr>
+        <td width="112" height="46">NOTIFICATION</td>
+        <td width="211"><label>
+          <textarea name="notification"></textarea>
+        </label></td>
+      </tr>
+
+
+      <tr>
+        <td colspan="2"><center><label>
+          <div>
+            <input type="submit" name="Submit" value="POST" class="btn btn-success"/>
+        </div>
+        </label></center></td>
+      </tr>
+      </table>
+  </div>
+  <div align="center"></div>
+  <label></label>
+</form>
+</body>
+{% endblock %}
