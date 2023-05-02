@@ -54,6 +54,10 @@ urlpatterns=[
     path('allocatingstaff', views.allocatingstaff, name='allocatingstaff'),
     path('conductexam', views.conductexam, name='conductexam'),
     path('attendexam', views.attendexam, name='attendexam'),
+    path('viewstudadmin', views.viewstudadmin, name='viewstudadmin'),
+    path('examterms', views.examterms, name='examterms'),
+    path('studentviewnotifi', views.studentviewnotifi, name='studentviewnotifi'),
+
 
     path('searchsubject', views.searchsubject, name='searchsubject'),
 

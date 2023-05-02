@@ -1,13 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-</head>
+{% extends 'staffindex.html'  %}
+{% block body %}
 
 <body>
 <form id="form1" name="form1" method="post" action="poststudymaterials">
-  <table width="537" border="1">
+  <table class="table table-striped">
     <tr>
       <td width="185">studymaterials</td>
       <td width="336">&nbsp;</td>
@@ -22,13 +18,13 @@
       {% endfor %}
 
     <tr>
-      <td colspan="2"><label>
-        <div align="center">
-          <input type="submit" name="Submit" value="ADD" />
+      <td colspan="2"><center><label>
+        <div>
+          <input type="submit" name="Submit" value="ADD" class="btn btn-success"/>
           </div>
-      </label></td><    </tr>
+      </label></center></td>    </tr>
   </table>
   <label></label>
 </form>
 </body>
-</html>
+{% endblock %}

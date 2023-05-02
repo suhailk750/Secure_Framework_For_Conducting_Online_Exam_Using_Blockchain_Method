@@ -104,14 +104,15 @@ def deletedepartment(request,id):
     return HttpResponse('''<script>alert("Delete Successfull");window.location='/viewdept'</script> ''')
 
 def studentpost(request):
-    return render(request,"studentpost.html")
+    ob = department.objects.all()
+    return render(request,"studentpost.html",{'val':ob})
 
 def studadd(request):
     fname = request.POST['fname']
     lname = request.POST['lname']
     phone = request.POST['phone']
     gender = request.POST['gender']
-    department = request.POST['department']
+    departments = request.POST['select']
     place = request.POST['place']
     post = request.POST['post']
     pin = request.POST['pin']
@@ -129,7 +130,7 @@ def studadd(request):
     stob.lname = lname
     stob.phone = phone
     stob.gender = gender
-    stob.department = department
+    stob.dept_id = department.objects.get(id=departments)
     stob.place = place
     stob.post = post
     stob.pin = pin
@@ -152,6 +153,10 @@ def viewstud(request):
     ob=student.objects.all()
     return render(request,"viewstudent.html",{'val':ob})
 
+def viewstudadmin(request):
+    ob=student.objects.all()
+    return render(request, "view stud admin.html", {'val': ob})
+
 
 def postnotification(request):
     return render(request,"post notification.html")
@@ -159,6 +164,11 @@ def postnotification(request):
 def viewnotification(request):
     ob = notifications.objects.all()
     return render(request,"viewnotification.html",{'val':ob})
+
+
+def studentviewnotifi(request):
+    ob = notifications.objects.all()
+    return render(request,"studentviewnotifi.html",{'val':ob})
 
 def deletenotification(request,id):
     ob=notifications.objects.get(id=id)
@@ -256,9 +266,6 @@ def addfeedback(request):
 def postsubject(request):
     ob = department.objects.all()
     return render(request,"post subject.html",{'val':ob})
-
-
-
 
 
 def searchsubject(request):
@@ -442,7 +449,8 @@ def admin(request):
 # def logout(request):
 #     return render(request,"login.html")
 
-
+def examterms(request):
+    return render(request,"exam terms.html")
 
 
 

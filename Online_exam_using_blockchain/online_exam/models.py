@@ -7,13 +7,16 @@ class login(models.Model):
     password=models.CharField(max_length=100)
     type=models.CharField(max_length=100)
 
+class department(models.Model):
+    department=models.CharField(max_length=100)
+
 class student(models.Model):
     lid=models.ForeignKey(login,on_delete=models.CASCADE)
     fname=models.CharField(max_length=100)
     lname=models.CharField(max_length=100)
     phone=models.BigIntegerField()
     gender = models.CharField(max_length=100)
-    department=models.CharField(max_length=100)
+    dept_id = models.ForeignKey(department, on_delete=models.CASCADE)
     place=models.CharField(max_length=100)
     post=models.CharField(max_length=100)
     pin=models.IntegerField()
@@ -31,8 +34,7 @@ class staff(models.Model):
     pin=models.BigIntegerField()
     email=models.CharField(max_length=100)
 
-class department(models.Model):
-    department=models.CharField(max_length=100)
+
 
 
 class complaints(models.Model):

@@ -1,0 +1,45 @@
+{% extends 'candidateindex.html' %}
+{% block body %}
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <div align="center">
+    <p>Attend test </p>
+    <table width="348" border="1" class="table">
+      <tr>
+        <th width="117" scope="row">{{ data.question }}</th>
+        <td width="67"><label></label></td>
+      </tr>
+
+      <tr>
+        <th colspan="2" scope="row"><label>
+          <input name="radiobutton" type="radio" value="radiobutton" />
+          {{data.option1}}<br />
+
+          <input name="radiobutton" type="radio" value="radiobutton" />
+                    {{data.option2}}
+<br />
+          <input name="radiobutton" type="radio" value="radiobutton" />
+                   {{data.option3}}<br />
+
+
+          <input name="radiobutton" type="radio" value="radiobutton" />
+                  {{data.option4}}
+</label></th>
+      </tr>
+      <tr>
+        <th colspan="2" scope="row"><label>
+          <input name="Submit" type="submit" value="Finish" />
+          <input name="Submit2" type="submit" value="Next" />
+        </label></th>
+      </tr>
+    </table>
+    <p>&nbsp;    </p>
+  </div>
+</form>
+</body>
+{% endblock %}

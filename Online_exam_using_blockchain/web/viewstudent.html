@@ -1,8 +1,8 @@
-{% extends 'adminindex.html'  %}
+{% extends 'staffindex.html'  %}
 {% block body %}
 <body>
 <form id="form1" name="form1" method="post" action="studentpost">
-  <table width="544" border="1">
+  <table class="table table-striped">
 
     <tr>
       <td width="62">Name</td>
@@ -23,7 +23,7 @@
       <td>&nbsp;{{ i.fname }} {{ i.lname }} </td>
       <td>&nbsp;{{ i.phone }} </td>
         <td> {{ i.gender }}</td>
-      <td> {{ i.department }}</td>
+      <td> {{ i.dept_id.department }}</td>
       <td>&nbsp;{{ i.place }}</td>
       <td>&nbsp;{{ i.post }} {{ i.pin }} </td>
       <td>&nbsp;{{ i.email }} </td>
@@ -36,11 +36,11 @@
       {% endfor  %}
 
     <tr>
-      <td colspan="9"><label>
-        <div align="center">
-          <input type="submit" name="Submit" value="add new" />
+      <td colspan="9"><center><label>
+        <div>
+          <input type="submit" name="Submit" value="add new" class="btn btn-success"/>
           </div>
-      </label></td>
+      </label></center></td>
     </tr>
   </table>
 </form>

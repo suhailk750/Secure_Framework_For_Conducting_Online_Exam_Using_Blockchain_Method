@@ -1,14 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-</head>
+{% extends 'staffindex.html'  %}
+{% block body %}
 
 <body>
 <form action="{% url 'doubtreply' %}" method="post" enctype="multipart/form-data" name="form1" id="form1">
   <div align="center">
-    <table width="271" border="1">
+    <table class="btn btn-success">
       
       <tr>
         <td width="103">Reply</td>
@@ -19,7 +15,7 @@
       <tr>
         <td colspan="2"><label>
           <div align="center">
-            <input type="submit" name="Submit" value="Post" />
+            <input type="submit" name="Submit" value="Post" class="btn btn-success"/>
             </div>
         </label></td>
       </tr>
@@ -29,4 +25,4 @@
   <label></label>
 </form>
 </body>
-</html>
+{% endblock %}

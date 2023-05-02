@@ -1,0 +1,48 @@
+{% extends 'adminindex.html'  %}
+{% block body %}
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table class="table table-striped">
+
+    <tr>
+      <th width="62">Name</th>
+      <th width="38">phone</th>
+        <th width="38">Gender</th>
+      <th width="71">Department</th>
+      <th width="37">Place</th>
+      <th width="57">Addresss</th>
+      <th width="31">email</th>
+{#      <td width="57">username</td>#}
+{#      <td width="60">Password</td>#}
+      <td width="73"><a href="#"></a></td>
+    </tr>
+
+        {% for i in val  %}
+
+    <tr>
+      <td>&nbsp;{{ i.fname }} {{ i.lname }} </td>
+      <td>&nbsp;{{ i.phone }} </td>
+        <td> {{ i.gender }}</td>
+      <td> {{ i.department }}</td>
+      <td>&nbsp;{{ i.place }}</td>
+      <td>&nbsp;{{ i.post }} {{ i.pin }} </td>
+      <td>&nbsp;{{ i.email }} </td>
+{#      <td>&nbsp;</td>#}
+{#      <td>&nbsp;</td>#}
+{#      <td>#}
+{#      <p><a href="{% url 'deletestud' id=i.lid.id %}">Delete</a></p></td>#}
+{#    </tr>#}
+
+      {% endfor  %}
+
+{#    <tr>#}
+{#      <td colspan="9"><label>#}
+{#        <div align="center">#}
+{#          <input type="submit" name="Submit" value="add new" />#}
+{#          </div>#}
+{#      </label></td>#}
+    </tr>
+  </table>
+</form>
+</body>
+{% endblock %}

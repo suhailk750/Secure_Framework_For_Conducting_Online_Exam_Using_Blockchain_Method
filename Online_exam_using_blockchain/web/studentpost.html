@@ -31,12 +31,15 @@
         </label></td>
       </tr>
       <tr>
-        <td>DEPARTMENT</td>
-        <td><label>
-          <input type="text" name="department" />
-        </label></td>
-      </tr>
-        <tr>
+      <td width="144">Department</td>
+      <td width="118"><label>
+      <select name="select">
+          {% for i in val %}
+         <option value="{{ i.id }}" {% if  i.id == val.id %} selected {% endif  %}>{{ i.department }}</option>
+          {% endfor %}
+      </select>
+      </td>
+    </tr>
   <td>Gender</td>
   <td><label>
     <input name="gender" type="radio" value="male" />

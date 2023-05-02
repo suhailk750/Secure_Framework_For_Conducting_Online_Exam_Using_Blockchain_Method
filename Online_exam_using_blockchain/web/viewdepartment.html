@@ -3,25 +3,26 @@
 
 <body>
 <form id="form1" name="form1" method="post" action="postdepartment">
-  <table width="374" border="1">
+  <table class="table table-striped">
     <tr>
       <td colspan="2">&nbsp;</td>
     </tr>
     <tr>
-      <td width="103">DEPARTMENT</td>
-      <td width="105">MANAGE</td>
+      <th width="103">DEPARTMENT</th>
+      <th width="105">MANAGE</th>
     </tr>
     <tr>
         {% for i in val  %}
       <td> {{ i.department }}</td>
       <td>
-      <p><a href="{% url 'deletedepartment' id=i.id %}">DELETE</a></p></td>
+      <p><a href="{% url 'deletedepartment' id=i.id %}" class="btn btn-danger">DELETE</a></p></td>
     </tr>
       <tr>
           {% endfor  %}
+    <tr align="center">
       <td colspan="9"><label>
         <div align="center">
-          <input type="submit" name="Submit" value="add new" />
+          <input type="submit" name="Submit" value="add new" class="btn btn-success"/>
           </div>
       </label></td>
     </tr>
