@@ -55,11 +55,14 @@ urlpatterns=[
     path('conductexam', views.conductexam, name='conductexam'),
     path('attendexam', views.attendexam, name='attendexam'),
     path('viewstudadmin', views.viewstudadmin, name='viewstudadmin'),
-    path('examterms', views.examterms, name='examterms'),
+    # path('examterms', views.examterms, name='examterms'),
     path('studentviewnotifi', views.studentviewnotifi, name='studentviewnotifi'),
-
+    path('examsubjectlist', views.examsubjectlist, name='examsubjectlist'),
+    path('examsubjectlistsearch', views.examsubjectlistsearch, name='examsubjectlistsearch'),
+    path('viewterms/<int:id>', views.viewterms, name='viewterms'),
 
     path('searchsubject', views.searchsubject, name='searchsubject'),
+    path('attendtest', views.attendtest, name='attendtest'),
 
 
     path('deletestud/<int:id>',views.deletestud,name = 'deletestud'),

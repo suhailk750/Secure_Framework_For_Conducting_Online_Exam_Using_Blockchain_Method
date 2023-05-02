@@ -7,7 +7,7 @@
     <tr>
       <td width="103">NOTIFICATION</td>
       <td width="105">DATE</td>
-      <td width="105">MANAGE</td>
+{#      <td width="105">MANAGE</td>#}
     </tr>
       {% for i in val  %}
 
@@ -16,15 +16,15 @@
       <td>&nbsp;{{ i.date }}</td>
 
 
-      <td>
-      <p><a href="{% url 'deletenotification' id=i.id %}">DELETE</a></p></td>
+{#      <td>#}
+{#      <p><a href="{% url 'deletenotification' id=i.id %}">DELETE</a></p></td>#}
     </tr>
     {% endfor %}
       <tr>
-      <td colspan="9"><center><label>
-        <div>
-          <input type="submit" name="Submit" value="add new" class="btn btn-success"/>
-          </div>
+{#      <td colspan="9"><center><label>#}
+{#        <div>#}
+{#          <input type="submit" name="Submit" value="add new" class="btn btn-success"/>#}
+{#          </div>#}
       </label></center></td>
     </tr>
   </table>

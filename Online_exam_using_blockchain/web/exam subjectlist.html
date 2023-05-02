@@ -1,0 +1,36 @@
+{% extends 'user.html'  %}
+{% block body %}
+
+<body>
+<form id="form1" name="form1" method="post" action="../../examsubjectlistsearch#about">
+  <table class="table table-striped">
+    <tr>
+      
+      <td>Department</td>
+      <td>&nbsp;</td>
+      <td><label>
+        <select name="select">
+            {% for i in val %}
+         <option value="{{ i.id }}" {% if  i.id == val.id %} selected {% endif  %}>{{ i.department }}</option>
+          {% endfor %}
+        </select>
+        <input type="submit" name="Submit" value="Search">
+      </label></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+
+      <td>Subject</td>
+        <td></td>
+         </tr>
+        {% for i in val1  %}
+
+    <tr>
+      <td>{{ i.subject }}</td>
+            <td><label><a href="viewterms/{{ i.id }}">Attend Test</a></label></td>
+    </tr>
+  {% endfor  %}
+  </table>
+</form>
+</body>
+{% endblock %}

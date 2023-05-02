@@ -267,6 +267,21 @@ def postsubject(request):
     ob = department.objects.all()
     return render(request,"post subject.html",{'val':ob})
 
+def examsubjectlist(request):
+    ob = department.objects.all()
+    # sob=student.objects.get(lid__id=request.session['lid'])
+    # did=sob.dept_id.id
+    # ob = exam.objects.filter(sub_id__d_id__id=did)
+    # print(ob,"aaaaaaaaaaaaaaa")
+    return render(request,"exam subjectlist.html",{'val':ob})
+
+def examsubjectlistsearch(request):
+    dept = request.POST['select']
+    ob = department.objects.all()
+    ob1 = subject.objects.filter(d_id__id=dept)
+    return render(request, "exam subjectlist.html", {'val': ob,'val1':ob1})
+
+
 
 def searchsubject(request):
     dept=request.POST['select']
@@ -449,8 +464,23 @@ def admin(request):
 # def logout(request):
 #     return render(request,"login.html")
 
-def examterms(request):
-    return render(request,"exam terms.html")
+
+def viewterms(request,id):
+    ob = exam.objects.filter(sub_id__id=id)
+    request.session['eid']=id
+    # return render(request, "view_exam.html",{'val':ob})
+    return render(request, "exam terms.html",{'val':ob})
+
+
+def attendtest(request):
+    id=request.session['eid']=id
+    ob = exam.objects.filter(sub_id__id=id)
+    return render(request, "exam terms.html",{'val':ob})
+
+
+
+
+
 
 
 

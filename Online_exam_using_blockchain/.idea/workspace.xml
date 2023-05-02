@@ -28,17 +28,17 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/online_exam/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="338" column="1" lean-forward="true" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+            <state relative-caret-position="310">
+              <caret line="475" column="32" selection-start-line="475" selection-start-column="32" selection-end-line="475" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View Study material stud.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/View Study material stud.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/online_exam/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="208">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -46,53 +46,26 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/online_exam/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
+            <state relative-caret-position="336">
+              <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user.html">
+      <file leaf-file-name="exam terms.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/exam terms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="52" column="80" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="80" />
+            <state relative-caret-position="94">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Send doubt.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Send doubt.html">
+      <file leaf-file-name="exam subjectlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/exam subjectlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Post Complaint.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Post Complaint.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postfeedback.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/postfeedback.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentviewnotifi.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/studentviewnotifi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="187">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -108,13 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>js</find>
-      <find>vendor</find>
-      <find>action</find>
-      <find>code</find>
-      <find>actio</find>
-      <find>admi</find>
-      <find>postsub</find>
       <find>viewst</find>
       <find>viewdou</find>
       <find>&lt;</find>
@@ -128,16 +94,23 @@
       <find>poststudymaterials</find>
       <find>dreply</find>
       <find>home</find>
-      <find>postsubject</find>
       <find>studentpost</find>
       <find>studadd</find>
       <find>viewstud</find>
-      <find>searchsubject</find>
       <find>viewstudadmin</find>
       <find>viewnotification</find>
       <find>students</find>
       <find>studentviewnotifi</find>
       <find>viewstudymaterialsstud</find>
+      <find>view</find>
+      <find>postsubject</find>
+      <find>examsubjectlist</find>
+      <find>searchsubject</find>
+      <find>term</find>
+      <find>examsubject</find>
+      <find>viewterms</find>
+      <find>attendtest</find>
+      <find>student</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -156,9 +129,7 @@
         <option value="$PROJECT_DIR$/web/viewdepartment.html" />
         <option value="$PROJECT_DIR$/web/view stud admin.html" />
         <option value="$PROJECT_DIR$/web/studentpage.html" />
-        <option value="$PROJECT_DIR$/web/staffindex.html" />
         <option value="$PROJECT_DIR$/web/adminindex.html" />
-        <option value="$PROJECT_DIR$/web/staffpost.html" />
         <option value="$PROJECT_DIR$/web/post department.html" />
         <option value="$PROJECT_DIR$/web/viewcomplaints.html" />
         <option value="$PROJECT_DIR$/web/Send Doubt Reply.html" />
@@ -171,7 +142,6 @@
         <option value="$PROJECT_DIR$/web/add study materials.html" />
         <option value="$PROJECT_DIR$/web/viewDoubt.html" />
         <option value="$PROJECT_DIR$/web/view allocated subject.html" />
-        <option value="$PROJECT_DIR$/web/exam terms.html" />
         <option value="$PROJECT_DIR$/web/add exam.html" />
         <option value="$PROJECT_DIR$/web/Send doReply.html" />
         <option value="$PROJECT_DIR$/online_exam/models.py" />
@@ -181,16 +151,21 @@
         <option value="$PROJECT_DIR$/web/studentpost.html" />
         <option value="$PROJECT_DIR$/web/viewstudent.html" />
         <option value="$PROJECT_DIR$/web/View search Study material.html" />
-        <option value="$PROJECT_DIR$/web/studentviewnotifi.html" />
-        <option value="$PROJECT_DIR$/online_exam/urls.py" />
-        <option value="$PROJECT_DIR$/web/viewnotification.html" />
         <option value="$PROJECT_DIR$/web/viewnotificationstudent.html" />
         <option value="$PROJECT_DIR$/web/Send doubt.html" />
         <option value="$PROJECT_DIR$/web/Post Complaint.html" />
         <option value="$PROJECT_DIR$/web/postfeedback.html" />
-        <option value="$PROJECT_DIR$/online_exam/views.py" />
-        <option value="$PROJECT_DIR$/web/user.html" />
         <option value="$PROJECT_DIR$/web/View Study material stud.html" />
+        <option value="$PROJECT_DIR$/web/viewnotification.html" />
+        <option value="$PROJECT_DIR$/web/studentviewnotifi.html" />
+        <option value="$PROJECT_DIR$/web/user.html" />
+        <option value="$PROJECT_DIR$/web/staffindex.html" />
+        <option value="$PROJECT_DIR$/web/exam subject list.html" />
+        <option value="$PROJECT_DIR$/web/staffpost.html" />
+        <option value="$PROJECT_DIR$/web/exam terms.html" />
+        <option value="$PROJECT_DIR$/web/exam subjectlist.html" />
+        <option value="$PROJECT_DIR$/online_exam/urls.py" />
+        <option value="$PROJECT_DIR$/online_exam/views.py" />
       </list>
     </option>
   </component>
@@ -203,7 +178,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="613" />
     <option name="y" value="36" />
     <option name="width" value="699" />
@@ -226,35 +201,6 @@
               <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
               <item name="online_exam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="online_exam" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online_exam_using_blockchain" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Online_exam_using_blockchain" type="b2602c69:ProjectViewProjectNode" />
@@ -346,9 +292,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2630719" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2630719" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.19771242" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -371,20 +317,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/login/__MACOSX/Login_v4/js/._main.js" />
-    <entry file="file://$PROJECT_DIR$/Online_exam_using_blockchain/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="125" selection-start-line="125" selection-end-line="126" selection-end-column="43" />
-          <folding>
-            <element signature="e#329#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/login/vendor/jquery/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/admin/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -419,31 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/staffpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/studentpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/staffindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/staffpost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -489,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Send Doubt Reply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -524,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Send doReply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/viewdepartment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -552,26 +449,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/exam terms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/online_exam/migrations/0003_auto_20230418_1220.py" />
     <entry file="file://$PROJECT_DIR$/online_exam/migrations/0002_auto_20230326_1255.py" />
     <entry file="file://$PROJECT_DIR$/online_exam/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/adminindex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9980">
-          <caret line="682" column="69" lean-forward="true" selection-start-line="682" selection-start-column="69" selection-end-line="682" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -582,38 +465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/post subject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/addsubject.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/studentpost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/online_exam/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/exam subject list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -624,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/viewstudent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/viewnotificationstudent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -638,66 +486,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/viewnotification.html">
+    <entry file="file://$PROJECT_DIR$/web/View Study material stud.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Post Complaint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Send doubt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="-155">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/postfeedback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-127">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/studentviewnotifi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="289">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/online_exam/urls.py">
+    <entry file="file://$PROJECT_DIR$/web/Post Complaint.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/staffpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/staffindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="86" column="61" selection-start-line="86" selection-start-column="61" selection-end-line="86" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/exam subject list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="793" column="8" selection-start-line="793" selection-start-column="8" selection-end-line="793" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/viewstudent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/post subject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/studentpost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="76" column="17" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="52" column="80" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="80" />
+        <state relative-caret-position="162">
+          <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/View Study material stud.html">
+    <entry file="file://$PROJECT_DIR$/web/viewnotification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/staffpost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Online_exam_using_blockchain/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Send Doubt Reply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Send doubt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Send doReply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/exam subjectlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/exam terms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online_exam/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/online_exam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/online_exam/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="338" column="1" lean-forward="true" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+        <state relative-caret-position="310">
+          <caret line="475" column="32" selection-start-line="475" selection-start-column="32" selection-end-line="475" selection-end-column="32" />
         </state>
       </provider>
     </entry>
