@@ -1,34 +1,27 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-</head>
 
-<body>
-<form id="form1" name="form1" method="post" action="">
-  <table width="384" border="1">
+<form id="form1" name="form1" method="post" action="att_exam1">
+  <table class="table table-striped">
     <tr>
       <td width="56">Question</td>
-      <td width="312"><label>
-        <input type="text" name="textfield" />
-      </label></td>
+      <td width="312">{{ val.question }}</td>
     </tr>
     <tr>
       <td colspan="2"><label>
-        <input name="radiobutton" type="radio" value="radiobutton" />
-      option 1 
-      <input name="radiobutton" type="radio" value="radiobutton" />
-      option 2<br />
-      <input name="radiobutton" type="radio" value="radiobutton" />
-      option 3 
-      <input name="radiobutton" type="radio" value="radiobutton" />
-      option 4</label></td>
+        <input name="radiobutton" type="radio" value="{{ val.option1 }}" />
+      {{ val.option1 }} <br/>
+      <input name="radiobutton" type="radio" value="{{ val.option2 }}" />
+      {{ val.option2 }}<br />
+      <input name="radiobutton" type="radio" value="{{ val.option3 }}" />
+      {{ val.option3 }}<br/>
+      <input name="radiobutton" type="radio" value="{{ val.option4 }}" />
+      {{ val.option4 }}</label></td>
     </tr>
     <tr>
       <td colspan="2"><label>
         <div align="center">
-          <input type="submit" name="Submit" value="Submit" />
+         <input type="hidden" name="ans" value="{{ val.answer }}"/>
+         <input type="hidden" name="id" value="{{ val.id }}"/>
+         <input type="hidden" name="mark" value="{{ tmark }}"/>
           <input type="submit" name="Submit2" value="Next" />
           </div>
       </label></td>
@@ -37,5 +30,3 @@
   <div align="center"></div>
   <label></label>
 </form>
-</body>
-</html>

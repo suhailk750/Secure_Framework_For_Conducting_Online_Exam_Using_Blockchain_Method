@@ -11,25 +11,25 @@
       <tr>
         <td width="103">FIRSTNAME</td>
         <td width="217"><label>
-          <input type="text" name="fname" required=""/>
+          <input type="text" name="fname" required pattern="[A-Z a-z.]{3,25}"/>
         </label></td>
       </tr>
       <tr>
         <td>LASTNAME</td>
         <td><label>
-          <input type="text" name="lname" required=""/>
+          <input type="text" name="lname" required pattern="[A-Z a-z.]{3,25}"/>
         </label></td>
       </tr>
       <tr>
         <td>PHONE</td>
         <td><label>
-          <input type="text" name="phone" required=""/>
+          <input type="text" name="phone" required pattern="[6789][0-9]{9}"/>
         </label></td>
       </tr>
         <tr>
   <td>Gender</td>
   <td><label>
-    <input name="gender" type="radio" value="male" required=""/>
+    <input name="gender" type="radio" value="male" checked/>
   male</label>
     <label>
     <input name="gender" type="radio" value="female" required=""/>

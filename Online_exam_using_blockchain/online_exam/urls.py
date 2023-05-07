@@ -64,6 +64,8 @@ urlpatterns=[
     path('searchsubject', views.searchsubject, name='searchsubject'),
     path('attendtest', views.attendtest, name='attendtest'),
 
+    path('logout', views.logout, name='logout'),
+
 
     path('deletestud/<int:id>',views.deletestud,name = 'deletestud'),
     path('deletestaff/<int:id>',views.deletestaff,name = 'deletestaff'),
@@ -76,6 +78,8 @@ urlpatterns=[
     # path('ViewPQpaper',views.ViewPQpaper,name="ViewPQpaper"),
 
     path('staffadd',views.staffadd,name="staffadd"),
+    path('start_test',views.start_test,name="start_test"),
+    path('att_exam1',views.att_exam1,name="att_exam1"),
 
 
 ]
