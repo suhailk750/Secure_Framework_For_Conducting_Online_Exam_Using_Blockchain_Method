@@ -1,19 +1,20 @@
-
-<form id="form1" name="form1" method="post" action="att_exam1">
+{% extends 'user.html'  %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="att_exam1#about">
   <table class="table table-striped">
     <tr>
-      <td width="56">Question</td>
+      <td width="56">Question:</td>
       <td width="312">{{ val.question }}</td>
     </tr>
     <tr>
       <td colspan="2"><label>
-        <input name="radiobutton" type="radio" value="{{ val.option1 }}" />
+        <input name="radiobutton" type="radio" value="{{ val.option1 }}" required/>
       {{ val.option1 }} <br/>
-      <input name="radiobutton" type="radio" value="{{ val.option2 }}" />
+      <input name="radiobutton" type="radio" value="{{ val.option2 }}" required/>
       {{ val.option2 }}<br />
-      <input name="radiobutton" type="radio" value="{{ val.option3 }}" />
+      <input name="radiobutton" type="radio" value="{{ val.option3 }}" required/>
       {{ val.option3 }}<br/>
-      <input name="radiobutton" type="radio" value="{{ val.option4 }}" />
+      <input name="radiobutton" type="radio" value="{{ val.option4 }}" required/>
       {{ val.option4 }}</label></td>
     </tr>
     <tr>
@@ -30,3 +31,4 @@
   <div align="center"></div>
   <label></label>
 </form>
+{% endblock %}

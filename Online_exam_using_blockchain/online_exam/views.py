@@ -10,6 +10,19 @@ from django.shortcuts import redirect
 
 # Create your views here.
 
+
+import json
+
+from web3 import Web3, HTTPProvider
+
+# truffle development blockchain address
+blockchain_address = 'http://127.0.0.1:7545'
+# Client instance to interact with the blockchain
+web3 = Web3(HTTPProvider(blockchain_address))
+# Set the default account (so we don't need to set the "from" for every transaction call)
+web3.eth.defaultAccount = web3.eth.accounts[0]
+
+
 def main(request):
     return render(request,"index.html")
 
@@ -321,7 +334,13 @@ def examsubjectlistsearch(request):
     dept = request.POST['select']
     ob = department.objects.all()
     ob1 = subject.objects.filter(d_id__id=dept)
-    return render(request, "exam subjectlist.html", {'val': ob,'val1':ob1})
+    res=[]
+    for i in ob1:
+        print(i.id,"eeeeee")
+        ob2  = result.objects.filter(sub_id__id=i.id,stud_id__lid__id=request.session['lid'])
+        if len(ob2)==0:
+            res.append((i))
+    return render(request, "exam subjectlist.html", {'val': ob,'val1':res})
 
 
 @login_required(login_url='/')
@@ -573,9 +592,23 @@ def att_exam1(request):
         ob.mark = mark
         ob.date = datetime.today()
         ob.save()
-        return HttpResponse('''<script>alert("Finish Successfull");window.location='/viewterms'</script> ''')
+        studentinfo = str(ob.stud_id.id)+"#"+str(ob.stud_id.fname)+"#"+str(ob.stud_id.lname)
+
+        with open(r'C:\Project\Online_exam_using_blockchain\blockchain\build\contracts\Structresult.json') as file:
+            contract_json = json.load(file)  # load contract info as JSON
+            contract_abi = contract_json['abi']  # fetch contract's abi - necessary to call its functions
+        contract = web3.eth.contract(address='0x3Aa2F70cD09f47F01fBdd18f9716bd3e195364d7', abi=contract_abi)
+        blocknumber = web3.eth.get_block_number()
+        message2 = contract.functions.addmark(blocknumber + 1,
+                                              str(studentinfo),
+                                              str(ob.sub_id.subject+"#"+ob.sub_id.semester),
+                                              str(ob.mark),
+                                              str(datetime.today())
+                                              ).transact()
 
 
+
+        return HttpResponse('''<script>alert("Finish Successfull");window.location='/students'</script> ''')
 
 def attendtest1(request):
     return render(request, "exam.html")

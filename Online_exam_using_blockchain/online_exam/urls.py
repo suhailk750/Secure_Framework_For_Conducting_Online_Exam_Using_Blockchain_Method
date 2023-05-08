@@ -61,6 +61,7 @@ urlpatterns=[
     path('examsubjectlistsearch', views.examsubjectlistsearch, name='examsubjectlistsearch'),
     path('viewterms/<int:id>', views.viewterms, name='viewterms'),
 
+
     path('searchsubject', views.searchsubject, name='searchsubject'),
     path('attendtest', views.attendtest, name='attendtest'),
 
